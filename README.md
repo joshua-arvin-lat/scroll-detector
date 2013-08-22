@@ -1,7 +1,7 @@
 Scroll Detector - CoffeeScript - JavaScript
 ===========================================
 
-Easy to use scroll detector script
+Easy to use scroll detector script. Requires jQuery.
 
 Basic usage
 -----------
