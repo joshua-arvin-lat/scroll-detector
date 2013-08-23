@@ -43,3 +43,16 @@ Reset
 ~~~ coffee
 ScrollDetector.reset()
 ~~~
+
+Installation
+------------
+
+~~~ html
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<script type='text/javascript' src='js/scroll-detector.js'></script>
+~~~
+
+Acknowledgements
+----------------
+
+© 2013, Joshua Arvin Lat. Released under the [MIT License](LICENSE).
