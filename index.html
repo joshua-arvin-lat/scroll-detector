@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Scroll-detector by joshua-arvin-lat</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Scroll-detector</h1>
+        <p class="header">Lean scroll detector for infinite scrolling, displaying certain elements, and other custom behaviors</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/joshua-arvin-lat/scroll-detector/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/joshua-arvin-lat/scroll-detector/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/joshua-arvin-lat/scroll-detector">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/joshua-arvin-lat">joshua-arvin-lat</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="scroll-detector---coffeescript---javascript" class="anchor" href="#scroll-detector---coffeescript---javascript"><span class="octicon octicon-link"></span></a>Scroll Detector - CoffeeScript - JavaScript</h1>
+
+<p>Easy to use scroll detector script. Requires jQuery.</p>
+
+<h2>
+<a name="basic-usage" class="anchor" href="#basic-usage"><span class="octicon octicon-link"></span></a>Basic usage</h2>
+
+<div class="highlight"><pre><span class="nx">ScrollDetector</span><span class="p">.</span><span class="nx">bind</span> <span class="nv">event: </span><span class="nf">(counter) -&gt;</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="s">"scroll"</span>
+  <span class="nx">ScrollDetector</span><span class="p">.</span><span class="nx">unlock</span><span class="p">()</span>
+</pre></div>
+
+<p>Lock / Unlock</p>
+
+<div class="highlight"><pre><span class="nx">ScrollDetector</span><span class="p">.</span><span class="nx">lock</span><span class="p">()</span>
+<span class="nx">ScrollDetector</span><span class="p">.</span><span class="nx">unlock</span><span class="p">()</span>
+</pre></div>
+
+<p>Enable / Disable</p>
+
+<div class="highlight"><pre><span class="nx">ScrollDetector</span><span class="p">.</span><span class="nx">enable</span><span class="p">()</span>
+<span class="nx">ScrollDetector</span><span class="p">.</span><span class="nx">disable</span><span class="p">()</span>
+</pre></div>
+
+<p>Finish (can't be enabled anymore)</p>
+
+<div class="highlight"><pre><span class="nx">ScrollDetector</span><span class="p">.</span><span class="nx">finish</span><span class="p">()</span>
+</pre></div>
+
+<p>Unbind</p>
+
+<div class="highlight"><pre><span class="nx">ScrollDetector</span><span class="p">.</span><span class="nx">unbind</span><span class="p">()</span>
+</pre></div>
+
+<p>Reset</p>
+
+<div class="highlight"><pre><span class="nx">ScrollDetector</span><span class="p">.</span><span class="nx">reset</span><span class="p">()</span>
+</pre></div>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<div class="highlight"><pre><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">'text/javascript'</span> <span class="na">src=</span><span class="s">'js/jquery.min.js'</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">'text/javascript'</span> <span class="na">src=</span><span class="s">'js/scroll-detector.js'</span><span class="nt">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<h2>
+<a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements</h2>
+
+<p>© 2013, Joshua Arvin Lat. Released under the <a href="LICENSE">MIT License</a>.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
